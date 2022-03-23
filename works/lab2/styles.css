@@ -1,0 +1,74 @@
+@media(min-width: 741px){
+form{
+    border: solid 1px;
+    position: absolute;
+    top: 5px;
+    left: 530px;
+    width: 740px;
+    height: 500px;
+    background-color: aquamarine;
+}
+img{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+}
+p{
+    font-size:50px;
+    padding-left: 250px;
+}
+#login-label{
+    position: relative;
+    top: 30px;
+    left: 300px;
+    font-size: 30px;
+
+}
+#pass-label{
+    position: relative;
+    top: 110px;
+    left: 65px;
+    font-size: 30px;
+}
+#login{
+    position: relative;
+    top: 60px;
+    left:220px;
+}
+#password{
+    position: relative;
+    top: 140px;
+    left:-29px;
+}
+#checkbox{
+    position:absolute;
+    top:340px;
+    right:300px;
+}
+#btn{
+    position: relative;
+    top: 205px;
+    right: 190px;
+    /* font-size: 30px; */
+    width: 165px;
+    height: 25px;
+}
+@media(max-width: 740px){
+    form{
+        border: solid 1px;
+        position: absolute;
+        /* position: relative; */
+        top: 220px;
+        width: 740px;
+        height: 500px;
+        background-color: aquamarine;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 290px;
+    }
+    
+}
