@@ -1,0 +1,426 @@
+body, .left-aside{
+    background-color: #E5E5E5;
+}
+
+p, b, i{
+    font-family: 'Nexa';
+}
+
+.cont{
+    display:flex;
+    justify-content: space-between;
+}
+
+.left-aside{
+    width: 150px;
+}
+.right-aside{
+    width: 322px;
+}
+.main-part{
+    width: 625px;
+    margin-left: 90px;
+}
+.main-part, .right-aside{
+    background-color: #F4F6F8;
+}
+
+/* Parts of left-side */
+#logo{
+    width: 136;
+    height: 45,08;
+    margin-left: 41px;
+}
+
+.dashboard, .exchange, .wallet, 
+.stat, .profile, .settings, .logout{
+    width: 207px;
+    height: 64px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+.logout{
+    margin-top: 337px;
+}
+.dashboard:hover, .exchange:hover, .wallet:hover,
+.stat:hover, .profile:hover, .settings:hover{
+    background-color: #4062FF;
+    color: white;
+}
+#home, #swap, #wall, #active, #prof, #sett, #log{
+    width: 32px;
+    height: 32px;
+    filter: invert(50%);
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+#log{
+    /* width: 32px;
+    height: 32px; */
+    filter: invert(10%) sepia(82%) saturate(6533%) hue-rotate(2deg) brightness(126%) contrast(117%);
+}
+.p-log{
+    color: #f00;
+}
+
+/* Parts of right-side */
+.top-part{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+#notif{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.mycat{
+    display: flex;
+    justify-content: space-between;
+}
+#cat-pic{
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+}
+.acc-part{
+    display: flex;
+    align-items:center;
+    margin-right: 10px;
+}
+#low-acc{
+    font-size: 16px;
+    margin-left: 8px;
+}
+#down-arr{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+/* Font-sizes */
+#high{
+font-size: 24px;
+}
+#low{
+    font-size: 14px
+}
+#very-low{
+    font-size:12px;
+}
+#medium-low{
+    font-size: 13px;
+}
+
+/* Continue */
+.buttons{
+    margin-top: 42px;
+}
+
+.acc{
+    margin-left: 10px;
+}
+
+.cash{
+    background-color: #4062FF;
+    color: white;
+    height: 155px;
+    width: 274px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+.sum{
+    margin-top: 10px;
+    padding-top: 50px;
+    height: 40px;
+    text-align: center;
+}
+.course{
+    height: 28px;
+    width: 88px;
+    display: flex;
+    align-items: center;
+    background-color: #4081FF;
+    border-radius: 20px;
+    margin-left: 93px;
+}
+#arrow{
+    width: 16px;
+    height: 16px;
+    margin-left: 9px;
+    filter: invert(100%);
+}
+
+.cash-btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.depo-btn{
+    width: 129px;
+    height: 54px;
+    display: flex;
+    align-items:center;
+    background-color: #4062FF;
+    color: white;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+#arr-down{
+    width: 24px;
+    height: 24px;
+    margin-left: 25px;
+    filter: invert(100%);
+}
+.with-btn{
+    width: 129px;
+    height: 54px;
+    display: flex;
+    align-items:center;
+    background-color: #40BAFF;
+    color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+#arr-up{
+    width: 24px;
+    height: 24px;
+    margin-left: 18px;
+    filter: invert(100%);
+}
+
+.transacts{
+    margin-top: 50px;
+}
+.recent{
+    margin-left: 10px;
+}
+
+.btc-buy{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.yell-back{
+    width: 48px;
+    height: 48px;
+    background-color: #F0B90B;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.grey-back{
+    width: 48px;
+    height: 48px;
+    border-radius: 17px;
+    background-color: #636890;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#curr-bitc{
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);
+}
+.box-text{
+    margin-right: 50px;
+    margin-top: 5px;
+}
+.green, .red{
+    margin-right: 30px;
+    display:flex;
+    align-items: center;
+}
+
+.eth-sell{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+#curr-eth{
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);
+}
+
+.eth-buy{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+/* Main part */
+
+.search{
+    width: 323px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#glass{
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}
+#text-field{
+    width: 255px;
+    height: 50px;
+    border: none;
+    margin-left: 15px;
+}
+
+.success-man{
+    margin-top: 32px;
+    background-color: #4062FF;
+    width: 550px;
+    height: 244px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-block{
+    padding-top: 50px;
+    width: 304px;
+    height: 150px;
+    margin-left: 30px;
+}
+.assign{
+    width: 304px;
+    height: 86px;
+    font-size: 36px;
+    color: white;
+    /* margin-left: 20px; */
+}
+.expert-btn{
+    background-color:#40BAFF;
+    color: white;
+    width: 148px;
+    height: 54px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#man{
+    width: 285px;
+    height: 285px;
+    position: relative;
+    right: 50px;
+}
+
+.my-portfolio{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.crypto-list{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.btc-course, .eth-course{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 80px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: white;
+}
+.btc-course{
+    margin-left: 40px;
+}
+.eth-course{
+    margin-right: 40px;
+}
+.btc-cur-pic{
+    width: 48px;
+    height: 48px;
+    background-color: #EF8E19;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#bi-curr{
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-crypto-text{
+margin-right: 20px;
+}
+.box-crypto-course{
+    margin-right: 10px;
+}
+.green-line{
+    filter: invert(80%) sepia(28%) saturate(1031%) hue-rotate(52deg) brightness(92%) contrast(86%);
+}
+.red-line{
+ filter: invert(10%) sepia(82%) saturate(6533%) hue-rotate(2deg) brightness(126%) contrast(117%);
+}
+.red-red{
+    width: 71px;
+    height: 16px;
+    display: flex;
+    align-items:center;
+    margin-top: -10px;
+}
+.green-green{
+    width: 71px;
+    height: 16px;
+    display: flex;
+    align-items:center;
+    margin-top: -10px;
+
+}
+
+.eth-course{
+    border: 1px solid black;
+}
+.eth-cur-pic{
+    width: 48px;
+    height: 48px;
+    background-color: #636890;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#curr-eth{
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);
+    margin-left: auto;
+    margin-right: auto;
+}   
+
+#graph{
+    width: 625px;
+    height: 370px;
+}
+
+#crypto-arrow{
+    width: 16px;
+    height: 16px;
+}
