@@ -11,6 +11,7 @@ module.exports = {
     form: path.resolve(__dirname, './build/lab2/form.js'),
     regform: path.resolve(__dirname, './build/practice2/email-form.js'),
     dashboard: path.resolve(__dirname, './lab4/index.js'),
+    tablestud: path.resolve(__dirname, './lab5/index.js'),
   },
   mode: 'development',
   module: {
